@@ -4,7 +4,7 @@ const Search = () => {
   return (
     <div className="flex items-center">
       <form className="max-w-md mx-auto">
-        <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">
+        <label className="mb-5 text-sm font-medium text-gray-900 sr-only dark:text-white">
           Search
         </label>
         <div className="relative">

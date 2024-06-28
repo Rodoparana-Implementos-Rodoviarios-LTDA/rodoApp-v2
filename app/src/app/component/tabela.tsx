@@ -52,7 +52,7 @@ export default function Tabela() {
               <Table.Cell>{document.tipo}</Table.Cell>
               <Table.Cell>{document.status}</Table.Cell>
               <Table.Cell
-                className={` items-center rounded-md m-2
+                className={`
                   ${
                     document.prioridade === "Alta"
                       ? "font-medium text-red-500"
